@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - RobotechX | Student Projects & Training</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-robot"></i> RobotechX
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html#home" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About Us</a>
+                <a href="index.html#courses" class="nav-link">Courses</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Student Gallery</h1>
+            <p>Explore our student projects and training sessions</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="photos">Photos</button>
+                <button class="filter-btn" data-filter="videos">Videos</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Gallery Section -->
+    <section class="full-gallery">
+        <div class="container">
+            <div class="gallery-grid-full">
+                <!-- Photo Items -->
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/IMG-20251120-WA0011.jpg" alt="Students learning Arduino">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>Arduino Training Session</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/IMG-20251120-WA0028.jpg" alt="ESP32 Workshop">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>ESP32 IoT Workshop</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/IMG-20251120-WA0036.jpg" alt="Robot Assembly">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>Robot Assembly Project</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="projects">
+                    <div class="gallery-image">
+                        <img src="/IMG-20251120-WA0016.jpg" alt="Line Following Robot">
+                        <div class="overlay">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <p>Line Following Robot</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/IMG-20251120-WA0053.jpg" alt="Sensor Testing">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>Sensor Calibration Training</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/IMG-20251120-WA0046.jpg" alt="Student Group Photo">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>Student Success Group</p>
+                </div>
+        
+                <!-- Project Items -->
+                <div class="gallery-item-full" data-type="projects">
+                    <div class="gallery-image">
+                        <img src="/placeholder.svg?height=350&width=350" alt="Smart Home Project">
+                        <div class="overlay">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                    </div>
+                    <p>Smart Home IoT System</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="projects">
+                    <div class="gallery-image">
+                        <img src="/placeholder.svg?height=350&width=350" alt="Obstacle Avoiding Robot">
+                        <div class="overlay">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <p>Obstacle Avoiding Robot</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="projects">
+                    <div class="gallery-image">
+                        <img src="/placeholder.svg?height=350&width=350" alt="Weather Station">
+                        <div class="overlay">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                    </div>
+                    <p>Weather Monitoring Station</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/placeholder.svg?height=350&width=350" alt="Workstation">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>Electronics Workstation</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/placeholder.svg?height=350&width=350" alt="Motor Control Training">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>Motor Control Training</p>
+                </div>
+
+                <div class="gallery-item-full" data-type="photos">
+                    <div class="gallery-image">
+                        <img src="/placeholder.svg?height=350&width=350" alt="Certificate Ceremony">
+                        <div class="overlay">
+                            <i class="fas fa-image"></i>
+                        </div>
+                    </div>
+                    <p>Certificate Ceremony</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-gallery">
+        <div class="container">
+            <h2>Ready to Join Our Training?</h2>
+            <p>Start your robotics journey with RobotechX today!</p>
+            <a href="index.html#contact" class="cta-button">Enroll Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>RobotechX</h4>
+                    <p>Teaching the future of robotics and IoT technology</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#courses">Courses</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/robotechx" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/robotechx" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RobotechX. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
