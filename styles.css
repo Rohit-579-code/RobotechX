@@ -31,12 +31,19 @@ body {
 }
 
 .nav-logo {
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between logo image and text */
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff; /* adjust according to navbar background */
+  
+}
+.nav-logo .logo-img {
+    width: 40px; /* adjust size as needed */
+    height: auto;
+    object-fit: contain;
+      border-radius: 50%;
 }
 
 .nav-menu {
@@ -309,9 +316,7 @@ body {
   box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
 }
 
-/* Added full gallery page styles */
 
-/* Gallery Hero Section */
 .gallery-hero {
   height: 400px;
   background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=600&fit=crop");
@@ -355,7 +360,6 @@ body {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* Filter Section */
 .gallery-filter {
   padding: 2rem 0;
   background: white;
@@ -392,7 +396,6 @@ body {
   border-color: #764ba2;
 }
 
-/* Full Gallery Grid */
 .full-gallery {
   padding: 4rem 0;
   background: #f8f9fa;
@@ -469,7 +472,7 @@ body {
   color: #333;
 }
 
-/* CTA Gallery Section */
+
 .cta-gallery {
   padding: 4rem 0;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
