@@ -30,7 +30,7 @@ contactForm.addEventListener("submit", async (e) => {
   }
 
   try {
-    const response = await fetch("https://formsubmit.co/info@robotechx.com", {
+    const response = await fetch("https://formsubmit.co/robotechxofficial@gmail.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
